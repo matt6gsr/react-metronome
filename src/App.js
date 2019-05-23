@@ -1,8 +1,7 @@
 import React from 'react';
+import Metronome from './Metronome.jsx';
 import './App.css';
 
-function App() {
-  return <div className="App">Metronome App</div>;
-}
-
-export default App;
+export const App = () => {
+  return <Metronome />;
+};

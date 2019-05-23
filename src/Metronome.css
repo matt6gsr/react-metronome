@@ -19,3 +19,7 @@
   color: #fff;
   font-size: 18px;
 }
+
+.metronome button:focus {
+  outline: none;
+}
